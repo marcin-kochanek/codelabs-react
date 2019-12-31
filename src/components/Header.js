@@ -17,9 +17,6 @@ const HeaderWrapper = styled.header`
     padding: 5px 0;
 `;
 
-const Field = styled.div`
-    width: 30%;
-`;
 
 export const Header = () => {
     return (
@@ -31,16 +28,6 @@ export const Header = () => {
                     </Icon>
                 </NavLink>
             </div>
-
-            <Field>
-                <p className="control has-icons-right">
-                <input className="input is-rounded" type="text" placeholder="Search album" />
-                    <span className="icon is-small is-right">
-                        <i className="fas fa-search" />
-                    </span>
-                </p>
-            </Field>
-
 
             <div className="nav-right nav-menu">
                 <a className="nav-item is-tab is-hidden-tablet is-active">Home</a>
@@ -55,9 +42,9 @@ export const Header = () => {
                 </a>
                 <a className="nav-item is-tab">Log out</a>
             </div>
-            {/* <div class="navbar-item">
+            {/* <div className="navbar-item">
                 <NavLink className="buttons" to="/add">
-                    <a class="button is-link">
+                    <a className="button is-link">
                         Add
                     </a>
                 </NavLink>

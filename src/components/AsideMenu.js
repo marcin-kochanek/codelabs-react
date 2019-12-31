@@ -38,7 +38,7 @@ const AsideMenu = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/add">
+                        <NavLink to="/albums/new">
                             <span className="icon">
                                 <i className="fas fa-home" />
                             </span>
